@@ -46,7 +46,7 @@ resilience4j:
       courseService:
         sliding-window-size: 5
         minimum-number-calls: 5
-        failure-rate-threshould: 50
+        failure-rate-threshold: 50
         wait-duration-in-open-state: 10s
         permitted-number-of-calls-in-half-open-state: 2
 
