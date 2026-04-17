@@ -38,7 +38,7 @@ eureka:
 resilience4j:
   retry:
     instances:
-      facultyRetry:
+      courseService:
         max-attempts: 3
         wait-duration: 2s
   circuitbreaker:
